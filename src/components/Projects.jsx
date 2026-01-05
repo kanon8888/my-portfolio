@@ -6,7 +6,7 @@ const projects = [
     name: "Portfolio Website",
     image: "https://i.ibb.co.com/4gt5hQZK/Screenshot-2026-01-05-182406.png",
     description: "A personal portfolio website to showcase my projects and skills.",
-    liveLink: "https://your-portfolio-live.com",
+    liveLink: "https://thunderous-longma-ddd934.netlify.app/",
     githubLink: "https://github.com/kanon8888/my-portfolio",
   },
   {

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -13,13 +15,13 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-4 mb-4 md:mb-0">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
-            GitHub
+            <FaGithub />
           </a>
           <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
-            LinkedIn
+            <FaLinkedin />
           </a>
           <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
-            Twitter
+            <FaSquareXTwitter />
           </a>
         </div>
 
