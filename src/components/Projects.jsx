@@ -14,7 +14,7 @@ const projects = [
     image: "https://i.ibb.co.com/WWWwqfMk/Screenshot-2026-01-05-160808.png",
     description: "An e-commerce platform with interactive UI, dynamic product listing, and secure checkout functionality.",
     liveLink: "https://cheery-lokum-0b96f3.netlify.app",
-    githubLink: "https://github.com/kanon8888/freelance-marketplace-clientlive",
+    githubLink: "https://github.com/kanon8888/freelance-marketplace-client",
   },
   {
     name: "Book Courier",
