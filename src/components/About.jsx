@@ -60,7 +60,7 @@ const About = () => {
               ["CSS3", "1572B6", "css3", "white"],
               ["JavaScript", "F7DF1E", "javascript", "black"],
               ["React", "61DAFB", "react", "black"],
-              ["Next.js", "000000", "next.js", "white"],
+              
               ["Node.js", "339933", "node.js", "white"],
               ["Express.js", "000000", "express", "white"],
               ["MongoDB", "47A248", "mongodb", "white"],
