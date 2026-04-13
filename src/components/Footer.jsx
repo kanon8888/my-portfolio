@@ -14,10 +14,10 @@ const Footer = () => {
 
         {/* Social Links */}
         <div className="flex space-x-4 mb-4 md:mb-0">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://github.com/kanon8888" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
+          <a href="https://www.linkedin.com/in/md-rakib-hasan-bab5803a7/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">
             <FaLinkedin />
           </a>
           <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400">

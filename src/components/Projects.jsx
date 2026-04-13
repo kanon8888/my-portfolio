@@ -11,14 +11,14 @@ const projects = [
   },
   {
     name: "Freelance Marketplace",
-    image: "https://i.ibb.co.com/WWWwqfMk/Screenshot-2026-01-05-160808.png",
+    image: "https://i.ibb.co.com/rGqk0k7q/download-1.jpg",
     description: "An e-commerce platform with interactive UI, dynamic product listing, and secure checkout functionality.",
     liveLink: "https://cheery-lokum-0b96f3.netlify.app",
     githubLink: "https://github.com/kanon8888/freelance-marketplace-client",
   },
   {
     name: "Book Courier",
-    image: "https://i.ibb.co.com/qYRSvHSL/Screenshot-2026-01-05-162526.png",
+    image: "https://i.ibb.co.com/MyjHjXrK/delivery.jpg",
     description: "A personal portfolio website showcasing skills, projects, and a contact section with responsive design.",
     liveLink: "https://book-courier-6f173.web.app",
     githubLink: "https://github.com/kanon8888/book-courier-client",

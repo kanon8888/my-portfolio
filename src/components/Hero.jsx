@@ -39,19 +39,21 @@ const Hero = () => {
         </motion.p>
 
         <motion.a
-          href="/resume.pdf"
-          download
+          href="https://drive.google.com/uc?export=download&id=1NWm1T79neBildfh5EmXVyKFLyEPT44JD"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="inline-block bg-gradient-to-r from-cyan-400 to-blue-600 px-6 py-3 rounded-lg hover:text-gray-900 transition-colors"
+          className="inline-block bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
         >
           Download Resume
         </motion.a>
       </motion.div>
 
+
       {/* Right: Image */}
       <motion.div
-        className="flex-1 flex justify-center md:justify-end mt-10 md:mt-0"
+        className="md:flex-1 flex justify-center md:justify-end mt-10 md:mt-0"
         initial={{ opacity: 0, y: 60 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}

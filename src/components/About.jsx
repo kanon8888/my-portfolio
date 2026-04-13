@@ -54,29 +54,50 @@ const About = () => {
             Skills & Technologies
           </h3>
 
-          <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+          <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+
             {[
-              ["HTML5", "E34F26", "html5", "white"],
-              ["CSS3", "1572B6", "css3", "white"],
-              ["JavaScript", "F7DF1E", "javascript", "black"],
-              ["React", "61DAFB", "react", "black"],
-              
-              ["Node.js", "339933", "node.js", "white"],
-              ["Express.js", "000000", "express", "white"],
-              ["MongoDB", "47A248", "mongodb", "white"],
-              ["Tailwind_CSS", "06B6D4", "tailwind-css", "white"],
-              ["Git", "F05032", "git", "white"],
-              ["GitHub", "181717", "github", "white"],
-            ].map(([name, color, logo, logoColor], index) => (
-              <motion.img
-                key={index}
-                src={`https://img.shields.io/badge/${name}-${color}?style=for-the-badge&logo=${logo}&logoColor=${logoColor}`}
-                alt={name}
-                className="h-10"
-                whileHover={{ scale: 1.15 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              />
+              ["HTML5", "html5"],
+              ["CSS3", "css"],
+              ["JavaScript", "javascript"],
+              ["React", "react"],
+              ["Node.js", "nodedotjs"],
+              ["Express", "express"],
+              ["MongoDB", "mongodb"],
+              ["Tailwind", "tailwindcss"],
+              ["Git", "git"],
+              ["GitHub", "github"],
+            ].map(([name, logo], index) => (
+              <motion.div
+                key={name}
+                className="flex flex-col items-center gap-2"
+
+                // Floating animation
+                animate={{ y: [0, -10, 0] }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: index * 0.15,
+                }}
+
+                // Hover effect
+                whileHover={{ scale: 1.2, rotate: 2 }}
+              >
+                {/* Icon Circle */}
+                <div className="w-16 h-16 flex items-center justify-center rounded-full bg-white/10 border border-white/20 backdrop-blur-md hover:shadow-lg hover:shadow-cyan-500/30 transition">
+                  <img
+                    src={`https://cdn.simpleicons.org/${logo}`}
+                    alt={name}
+                    className="w-8 h-8"
+                  />
+                </div>
+
+                {/* Label */}
+                <p className="text-sm text-gray-400">{name}</p>
+              </motion.div>
             ))}
+
           </div>
         </motion.div>
 

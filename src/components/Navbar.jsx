@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import  logo  from "../assets/Modern _RHK_ logo with gradient swoosh.png";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +12,15 @@ const Navbar = () => {
         <nav className="bg-gray-900 text-white fixed w-full z-50 shadow-md">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
 
-                {/* Logo / Name */}
-                <a href="#home" className="text-2xl font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 hover:scale-105 transition-transform">
-                    Rakin Hasan
+                <a href="#home" className="flex items-center gap-3">
+                    <img
+                        src={logo}
+                        alt="RHK Logo"
+                        className="w-10 h-10 rounded-full border border-gray-300 shadow"
+                    />
+                    <span className="text-xl font-bold text-gray-800">
+                        RHK
+                    </span>
                 </a>
 
                 {/* Desktop Menu */}
